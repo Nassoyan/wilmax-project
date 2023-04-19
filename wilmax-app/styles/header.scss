@@ -1,0 +1,81 @@
+.header_wrapper {
+    width: 100%;
+    color: #280431;
+    .laportiva_ltd{
+        padding-top: 25px;
+        padding-left: 50px;
+        
+    }
+    >hr {
+        opacity: 0.5;
+    }
+    .header_titles {
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        padding-top: 10px;
+        .header_title_inner_box{
+            display: flex;
+            flex-direction: column;
+            vertical-align: baseline;
+            word-wrap: break-word;
+            cursor: pointer;
+
+
+            &:hover {
+                >span{
+                    visibility: visible;
+                }
+            }
+            >span{
+                border-bottom: 2px solid chocolate;
+                visibility: hidden;
+                margin-top: 5px;
+            }
+        }
+    }
+    .header_logo_box{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #280431;
+
+        >img {
+            padding-top: 10px;
+            object-fit: cover;
+        }
+    }
+    .header_color {
+        background-color: #470C66;;
+        font-size: 1.2rem;
+        height: 50px;
+        padding: 10px 0;
+        
+    }
+    .container {
+        .header_each_div {
+            padding: 8px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #a6a491;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            gap: 5px;
+            color: rgb(199, 209, 218);
+        }
+    }
+    .header_belowside {
+        background: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1470px;
+        padding: 10px 70px;
+        margin: 0 auto;
+        >div{
+            color: #232323;;
+        }
+    }
+}

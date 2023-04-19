@@ -1,0 +1,34 @@
+.topslider-container {
+    display: flex !important;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    $breakpoint-tablet:768px;
+    @media(max-width:$breakpoint-tablet){
+      padding: 0 15px;
+     }
+     
+       .container_inner {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1470px;
+        margin: 0 auto;
+        padding: 55px 50px;
+        width: 100%;
+        height: 600px;
+        border-radius: 20px;
+        >img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        $breakpoint-tablet:768px;
+        @media(max-width:$breakpoint-tablet){
+           padding: 55px 0px;
+        }
+         }
+       }
+
+       .slick-slkide {
+        background-color:rgb(227 228 230)
+       }

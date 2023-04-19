@@ -1,0 +1,33 @@
+.brands_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  .brands_container {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    .brand_logo {
+      width: 30%;
+      height: auto;
+    }
+    .brands_text {
+      width: 70%;
+    }
+  }
+}
+
+.about-title-page {
+  padding: 0 50px;
+  > a {
+    color: grey;
+    cursor: pointer;
+  }
+}

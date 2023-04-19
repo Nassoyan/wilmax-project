@@ -1,0 +1,61 @@
+.slick-slider {
+  margin-top: 50px;
+  .slick-list {
+    .slick-track {
+      display: flex;
+    }
+  }
+  .SliderPrevArrow{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    z-index: 1;
+    >svg path {
+      stroke: rgb(152, 146, 146);
+    }
+}
+
+.SliderNextArrow {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    z-index: 1;
+    >svg path {
+      stroke: rgb(152, 146, 146);
+    }
+  }
+}
+
+.each_prod_slider {
+  padding: 25px;
+  display: inline-block;
+  background: #f0f0f069;
+  border-radius: 12px;
+  width: 300px !important;
+  >div{
+    position: relative;
+    >img {
+      border-radius: 12px;
+    }
+    >svg {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+    >svg path {
+      fill: #FFFFFF;
+    }
+  }
+}
+
+
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px !important;
+}
